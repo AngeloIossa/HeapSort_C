@@ -43,7 +43,7 @@ int main(int argc, char const *argv[])
         heap_sort(&array[0], MAXHEAP);
         print_array(&array[0]);
         break;
-    case 6:
+    case 6: 
         printf("\nSort with heap-sort:\n");
         heap_sort(&array[0], MINHEAP);
         print_array(&array[0]);
@@ -51,9 +51,7 @@ int main(int argc, char const *argv[])
     default:
         break;
     }
-
     return 0;
-
 }
 
 
